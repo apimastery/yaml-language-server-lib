@@ -8,7 +8,7 @@
       "dom",
       "es2016"
     ],
-    "outDir": "./lib/amd",
+    "outDir": "./lib/umd",
     "plugins": []
   },
   "exclude": [
