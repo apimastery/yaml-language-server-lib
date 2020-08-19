@@ -70,8 +70,7 @@
     "lint": "eslint -c .eslintrc.js --ext .ts src test",
     "prettier-fix": "yarn prettier --write .",
     "build": "yarn clean && yarn lint && yarn compile && yarn build:libs",
-    "build:libs": "yarn compile:libs",
-    "compile:libs": "yarn compile:umd && yarn compile:esm",
+    "build:libs": "yarn compile:umd && yarn compile:esm",
     "compile:umd": "tsc -p ./tsconfig.umd.json",
     "compile:esm": "tsc -p ./tsconfig.esm.json"
   },
